@@ -1,0 +1,33 @@
+Storing Flights
+-	As admin creates flights, our class System will be storing them by using HashMap.
+	There will be two Hashmap, one that stores the object Flight with the key named after
+	its departure. This means that when we want to look at all the flights that departure
+	from a certain location, we find the key that is named after the location and get all
+	the flights. Similarly, we use another Hashmap to store the object Flight with the key
+	named after its arrival. This means that when we want to look at all the flights that
+	are arriving from a certain location, we kind the key that is named after the location
+	and get all the flights.
+
+-	We use this because we want to be efficient in searching through our data and getting
+	the ones that are useful.
+
+Storing Itineraries
+-	We want to get all the possible itineraries before displaying it to the user. To do this,
+	we store all the itineraries inside a List. In this list, it is possible for us to sort
+	by travel cost and travel time.
+
+Files
+-	We will be using two files: one for storing all information about user and one for storing
+	all information about flights.
+	In our file for storing information about user, our first line will be the name of the user,
+	if it exists. If not, it will be empty. The second line will be information about billing,
+	if it exists. If not, it will be empty. Under all of this, will be all the booked itineraries
+	for this user. Once we are done setting/getting this user, the next user’s information will be
+	there. We are going to differentiate between the users by having 10 hyphens (----------).
+	Although one hyphen is enough to differentiate, having 10 hyphens, it will be easier to read.
+
+-	In our file for storing information about flight, we will simply have a pattern:
+	first line will be flight number, second line will be departure date, and so on until
+	we set/get all the information. All flights will have the same amount of information,
+	this will create a pattern (each flight will have n number of information, n+1 will be the start
+	of new flight information)

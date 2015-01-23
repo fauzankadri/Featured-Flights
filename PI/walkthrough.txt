@@ -1,0 +1,16 @@
+Scenario: Search all itineraries from Toronto to Vancouver on November 3, 2014
+
+0)	System: searchItinerary
+	given user, origin, destination, date
+1)	User: searchItineraries
+	given origin, destination, date
+2)	System: makeAllItineraries
+	given origin, destination, date
+3)	System: createItinerary
+	given Itinerary
+4)	Itinerary: create Itinerary Object
+	given Itinerary
+5) 	User: addItineraries
+	given List of Itinerary
+6)	User: displayItineraries
+	given None

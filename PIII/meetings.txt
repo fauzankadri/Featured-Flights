@@ -1,0 +1,146 @@
+November 14, 2014
+5:00pm - 9:00pm
+Attendees: Wei-Cong, Fauzan, Amir, Jacky
+Planning Meeting
+Current state of the project:
+	- Created a new android application
+	- Started on the interface for the login
+	- discussed our tasks and goals
+Task till next meeting:
+	- Figure out how to serialize/deserialize (all)
+	- Finish doing the interface for login screen (Amir)
+	- start implementing more of the back-end (all)
+Fauzan:
+	- start working on the back-end of the app, take any tasks
+Jacky:
+	- start working on the back-end of the app, take any tasks
+Wei-Cong:
+	- Figure out serialize/deserialize
+Amir:
+	- Finish the user interface for the login activity
+
+November 16, 2014
+2:15pm - 6:30pm
+Attendees: Wei-Cong, Fauzan, Amir, Jacky
+Status Meeting
+Accomplishments since last meeting:
+	- Main Activity works
+	- Figured out some of serialize/deserialize
+	- Fixed API issues, all are aware to set up virtual device
+Accomplishments till next meeting:
+	- Finish most of the back-end (Fauzan, Jacky)
+	- Have all questions answered regarding the requirements of project (All)
+	- Serialize/deserialize all objects to transfer from activity to activity (Wei-Cong)
+	- Set up all activities for later implementation (Amir)
+Problems/Obstacles:
+	- Trouble figuring out serialize/deserialize
+	- Unable work in Linux lab
+	- bin was under version control and caused problems
+	- some files were not being updated to local machine and no one knows why
+
+November 18, 2014
+3:00pm - 4:00pm
+Atendees: Wei-Cong, Fauzan, Amir, Jacky
+Planning Meeting
+Current state of the project:
+	- Have all basic activities working with buttons
+	- Figured out how to do most of the android development
+	- Have most questions answered regarding project
+	- Understand difference between saving information on file and serializing/deserializing of objects
+	- Have an emulator working and working on devices
+Task till next meeting:
+	- Understand everyones code/implements for interview (All)
+	- comment most of code (All)
+	- Implement a proper login, check if it is valid (Fauzan, Amir)
+	- Implement search itinerary activity and display it (Fauzan, Amir)
+	- Create a serialize method somewhere (Jacky, Wei-Cong)
+	- Run test to make sure serialize works (Jacky)
+	- Change few fields for Client and Admin (Wei-Cong)
+	- Create method to save information into a file (Jacky, Wei-Cong)
+Fauzan:
+	- Understand the implementation of android
+	- Work with Amir to make login work
+	- Implement search itinerary for users, and display it
+Amir:
+	- Finish most of the activities basic interface
+	- Work with Fauzan to make login work
+	- Implement search Itinerary for users, and display it
+Wei-Cong:
+	- Serialize all objects to send from activity to activity
+	- Finish Admin class, make activity for Admins
+	- create method to save information into a file so we can upload the information again when app loads
+Jacky:
+	- Understand the implementation of android and how it works
+	- Serialize all objects to send from activity to activity
+	- Run some tests to make sure all objects are being sent from activity to activity, and also that they aren't changing midway
+	- create method to save information into a file so we can upload the information again when app loads
+
+November 20, 2014
+3:30pm - 5:00pm
+Attendees: Wei-Cong, Fauzan, Amir, Jacky
+Planning meeting
+Current state of project:
+	- Login works and checks for valid client/admin
+	- serialize/deserialize works for all files on the emulator
+	- Added small features to activities
+Task till next meeting:
+	- Implement search itinerary activity and display it (Fauzan, Amir)
+	- Test correctness of Admin doing the required tasks (Fauzan, Jacky)
+	- Figure out how to differentiate between admin and client when information is uploaded (Wei-Cong, Jacky)
+	- Figure out how to differentiate between admin and client when deserialize (Wei-Cong, Jacky)
+	- Use password.txt for getting valid passwords (Wei-Cong, Amir)
+	- Make all information go from activity to activity (All)
+Fauzan:
+	- Implement search itinerary for users, and display it, work with Amir
+	- Test for bugs or correctness of Admin tasks, work with Jacky
+	- Figure out what information is needed at each activity and discuss with team about it
+Wei-Cong:
+	- Serialize all objects to send from activity to activity
+	- Figure out a way to cast all admins into admin without crashing, work with Jacky
+	- Figure out what information is needed at each activity and discuss with team about it
+Amir:
+	- Implement search itinerary for users, and display it, work with Fauzan
+	- Figure out a format for password.txt and use it for login
+	- Figure out what information is needed at each activity and discuss with team about it
+Jacky:
+	- Test for bugs or correctness of Admin tasks, work with Fauzan
+	- Figure out a way to cast all admins into admin without crashing, work with Wei-Cong
+	- Figure out what information is needed at each activity and discuss with team about it
+
+November 23, 2014
+2:00pm - 5:00pm
+Attendees: Fauzan, Wei-Cong, Amir, Jacky
+Status Meeting
+Accomplishments since last meeting:
+	- Tested Admin class
+	- Figured out how to differentiate between Admin and Client when uploading into system
+	- All back-end task are done
+Accomplishments till next meeting:
+	- Figure out how to differentiate between admin and client when deserialize (Wei-Cong, Jacky)
+	- Use password.txt for getting valid passwords (Wei-Cong, Amir)
+	- Make all information go from activity to activity (All)
+	- update crc cards (All)
+	- start on README.txt (All)
+	- update Driver class for PIII (anyone who is done their tasks)
+Problems/Obstacles:
+	- Unable to work app in Linux Lab
+	- when deserializing, all objects are of class Object, having trouble casting
+	- App will sometime empty the csv files, need to figure out where and why this is happening
+
+November 25, 2014
+3:00pm - 4:00pm
+Attendees: Fauzan, Wei-Cong, Amir, Jacky
+Status Meeting
+Accomplishments since last meeting:
+	- Make all information go from activity to activity
+	- Finished Driver class
+	- Figured out why csv files were empty. Issue resolved
+Accomplishments till next meeting:
+	- Figure out how to differentiate between admin and client when deserialize (Wei-Cong, Jacky)
+	- Use password.txt for getting valid passwords (Wei-Cong, Amir)
+	- Make searchItinerary work with number of seats (Fauzan)
+	- update crc cards (All)
+	- start on README.txt (All)
+Problems/Obstacles:
+	- Unable to work app in Linux Lab
+	- when deserializing, all objects are of class Object, having trouble casting

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="b07.PIII.featuredflights"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GeneralOptions"
+            android:label="@string/title_activity_general_options" >
+        </activity>
+        <activity
+            android:name=".Search_Flights"
+            android:label="@string/title_activity_search__flights" >
+        </activity>
+        <activity
+            android:name=".SearchFlight"
+            android:label="@string/title_activity_search_flight" >
+        </activity>
+        <activity
+            android:name=".ViewBooked"
+            android:label="@string/title_activity_view_booked" >
+        </activity>
+        <activity
+            android:name=".EditInfo"
+            android:label="@string/title_activity_edit_info" >
+        </activity>
+        <activity
+            android:name=".SelectDateAndTime"
+            android:label="@string/title_activity_select_date_and_time" >
+        </activity>
+        <activity
+            android:name=".ChooseDeparture"
+            android:label="@string/title_activity_choose_departure"
+            android:windowSoftInputMode="stateHidden" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.app.ListActivity" />
+        </activity>
+        <activity
+            android:name=".ChooseDepartureLocation"
+            android:label="@string/title_activity_choose_departure_location" >
+        </activity>
+        <activity
+            android:name=".ViewFlight"
+            android:label="@string/title_activity_view_flight" >
+        </activity>
+        <activity
+            android:name=".AdministrativeTools"
+            android:label="@string/title_activity_administrative_tools" >
+        </activity>
+        <activity
+            android:name=".Help"
+            android:label="@string/title_activity_help" >
+        </activity>
+        <activity
+            android:name=".UploadOptions"
+            android:label="@string/title_activity_upload_options" >
+        </activity>
+        <activity
+            android:name=".ChooseDestinationLocation"
+            android:label="@string/title_activity_choose_destination_location" >
+        </activity>
+        <activity
+            android:name=".ViewSingleFlight"
+            android:label="@string/title_activity_view_single_flight" >
+        </activity>
+    </application>
+
+</manifest>

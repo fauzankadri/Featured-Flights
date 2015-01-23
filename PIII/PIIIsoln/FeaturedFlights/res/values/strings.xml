@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Featured Flights</string>
+
+    <!-- Titles -->
+    <string name="title_activity_main"> Sign In</string>
+    <string name="title_activity_search_flight">Search Flight</string>
+    <string name="title_activity_view_booked">View Booked Flights</string>
+    <string name="title_activity_edit_info">Edit Personal Info</string>
+    <string name="title_activity_choose_departure">Choose Departure Location</string>
+    <string name="title_activity_choose_departure_location">Choose Departure Location</string>
+    <string name="title_activity_view_flight">View Flights</string>
+    <string name="title_activity_administrative_tools">Administrative Tools</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_upload_options">Upload Options</string>
+    <string name="title_activity_search__flights">Search Flights</string>
+    <string name="title_activity_general_options">GeneralOptions</string>
+    <string name="title_activity_display">DisplayActivity</string>
+    <string name="title_activity_select_date_and_time">Select Date And Time</string>
+    <string name="title_activity_choose_destination_location">Choose Destination Location</string>
+    <string name="title_activity_view_single_flight">View Flight</string>
+
+    <!-- Main Activity -->
+    <!-- Button -->
+    <string name="login_as_guest">Log In As Guest</string>
+    <string name="login_text">Log In</string>
+    <!-- Menu -->
+    <string name="action_help">Help</string>
+    <!-- Other -->
+    <string name="coming_soon">Coming Soon</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+
+    <!-- General Options -->
+    <!-- Button -->
+    <string name="view_booked">View Booked Flights</string>
+    <string name="Search_Flight">Search Flight</string>
+    <string name="edit_info">Edit Personal Information</string>
+    <!-- Menu -->
+    <string name="log_out">Log Out</string>
+    <string name="action_administrator">Administrator</string>
+    <!-- Other -->
+
+
+    <!-- Edit Personal Info -->
+    <!-- Button -->
+    <string name="save">Save</string>
+    <!-- Menu -->
+    <!-- Other -->
+    <string name="edit_info_title">Edit Any Of Following</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="address">Address</string>
+    <string name="credit_card_number">Credit Card Number</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="new_password">New Password</string>
+    <string name="new_password_confirm">Confirm Password</string>
+
+    <string-array name="expiary_date_array">
+        <item>Expiry Date</item>
+        <item>12/2014</item>
+        <item>01/2015</item>
+        <item>02/2015</item>
+        <item>03/2015</item>
+        <item>04/2015</item>
+        <item>05/2015</item>
+        <item>06/2015</item>
+        <item>07/2015</item>
+        <item>08/2015</item>
+        <item>09/2015</item>
+    </string-array>
+
+    <!-- Administrative Tools -->
+    <!-- Button -->
+    <string name="upload_info_system">Upload Information To System</string>
+    <string name="book_flight_another_user">Book Flight For Another User</string>
+    <string name="edit_user_info">Edit User Information</string>
+    <string name="edit_flight_info">Edit Flight Information</string>
+    <!-- Menu -->
+    <!-- Other -->
+
+
+    <!-- Search Flight -->
+    <!-- Button -->
+    <string name="select_departure_date">Select Departure Date</string>
+    <string name="view_itinerary">View Itinerary</string>
+    <string name="choose_departure_location">Choose Departure Location</string>
+    <string name="choose_destination_location">Choose Destination Location</string>
+    <string name="view_single_flignt">View Single Flight</string>
+    <!-- Menu -->
+    <!-- Other -->
+    <string name="search_hint">Search For Name Of City</string>
+
+    <!-- Upload Options -->
+    <!-- Button -->
+    <string name="upload_flight_info">Upload Flight Information</string>
+    <string name="upload_client_info">Upload Client Information</string>
+    <string name="upload_admin_info">Upload Admin Information</string>
+    <!-- Other -->
+    <string name="choose_date">Enter The Departuer Date(yyyy-mm-dd)</string>
+    <string name="submit">Submit</string>
+
+</resources>

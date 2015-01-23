@@ -1,0 +1,132 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/firstNameTxt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/White"
+            android:drawableLeft="@drawable/agent"
+            android:hint="@string/first_name" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="20dp" >
+        </View>
+
+        <EditText
+            android:id="@+id/lastNameTxt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/White"
+            android:drawableLeft="@drawable/agent"
+            android:hint="@string/last_name" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="20dp" >
+        </View>
+
+        <EditText
+            android:id="@+id/emailTxt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/White"
+            android:drawableLeft="@drawable/envelope"
+            android:hint="@string/email_hint"
+            android:inputType="textEmailAddress" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="20dp" >
+        </View>
+
+        <EditText
+            android:id="@+id/addressTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/White"
+            android:drawableLeft="@drawable/home"
+            android:ems="10"
+            android:hint="@string/address"
+            android:inputType="textPostalAddress" >
+
+            <requestFocus />
+        </EditText>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="20dp" >
+        </View>
+
+        <EditText
+            android:id="@+id/newPasswordTxt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/White"
+            android:drawableLeft="@drawable/password"
+            android:hint="@string/new_password"
+            android:inputType="textPassword" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="20dp" >
+        </View>
+
+        <EditText
+            android:id="@+id/newPasswordConfirmTxt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/White"
+            android:drawableLeft="@drawable/password"
+            android:hint="@string/new_password_confirm"
+            android:inputType="textPassword" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="20dp" >
+        </View>
+
+        <EditText
+            android:id="@+id/creditCardNumberTxt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/White"
+            android:drawableLeft="@drawable/credit_card"
+            android:hint="@string/credit_card_number"
+            android:inputType="number" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="20dp" >
+        </View>
+
+        <Spinner
+            android:id="@+id/expiryDateSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/White" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="20dp" >
+        </View>
+
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/DeepBlue"
+            android:text="@string/save"
+            android:onClick="save"
+            android:textColor="@color/White" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="b07.PIII.featuredflights.AdministrativeTools" >
+
+    <Button
+        android:id="@+id/bookFlightAnotherUserBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/uploadInfoBtn"
+        android:layout_alignStart="@+id/uploadInfoBtn"
+        android:layout_below="@+id/uploadInfoBtn"
+        android:layout_marginTop="34dp"
+        android:background="@color/DeepBlue"
+        android:onClick="bookFlightAnotherUser"
+        android:text="@string/book_flight_another_user"
+        android:textColor="@color/White" />
+
+    <Button
+        android:id="@+id/editUserInfoBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bookFlightAnotherUserBtn"
+        android:layout_alignStart="@+id/uploadInfoBtn"
+        android:layout_below="@+id/bookFlightAnotherUserBtn"
+        android:layout_marginTop="32dp"
+        android:background="@color/DeepBlue"
+        android:onClick="editUserInfo"
+        android:text="@string/edit_user_info"
+        android:textColor="@color/White" />
+
+    <Button
+        android:id="@+id/editFlightInfoBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editUserInfoBtn"
+        android:layout_alignStart="@+id/uploadInfoBtn"
+        android:layout_below="@+id/editUserInfoBtn"
+        android:layout_marginTop="38dp"
+        android:background="@color/DeepBlue"
+        android:onClick="editFlightInfo"
+        android:text="@string/edit_flight_info"
+        android:textColor="@color/White" />
+
+    <Button
+        android:id="@+id/uploadInfoBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="@color/DeepBlue"
+        android:onClick="uploadInfo"
+        android:text="@string/upload_info_system"
+        android:textColor="@color/White" />
+
+</RelativeLayout>

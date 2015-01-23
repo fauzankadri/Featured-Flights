@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="b07.PIII.featuredflights.GeneralOptions" >
+    <item android:id="@+id/help" android:title="@string/action_help"></item>
+    <item android:id="@+id/admin" android:title="@string/action_administrator" android:checkable="false"></item>
+    <item android:id="@+id/logOut" android:title="@string/log_out"></item>
+
+</menu>

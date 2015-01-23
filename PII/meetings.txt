@@ -1,0 +1,92 @@
+October 31, 2014
+5:00pm - 7:10pm
+Attendees: Fauzan, Amir, Jacky, Wei-Cong
+Current State of the Project:
+	- Met with team members
+	- Discussed how to go about with this project
+	- Done: merging crc cards (first draft)
+Task till next meeting:
+	- Implement User (Wei-Cong)
+	- Implement Client (Wei-Cong)
+	- Implement BillingInfo (Wei-Cong)
+	- Implement Flight (Amir)
+	- Implement Itinerary (Amir)
+	- Implement OneWayTrip (Amir)
+	- Implement System (Fauzan)
+	- Implement Driver (Jacky)
+Wei-Cong:
+	- Start working on Class User, Client
+	- Wait for Class Itinerary to start implementing searchItinerary method
+Amir:
+	- Start with Class Flight first
+	- Upload Class Flight by Saturday (Nov. 1) or ASAP
+Fauzan:
+	- Start with basic Class System methods
+	- Wait till Class Flight is ready to start searchItinerary method
+	- Wait till Class Client is ready to start createClient method
+Jacky:
+	- Start by writing basic methods for Class Driver
+	- Wait till classes are done to start implementing methods for that class
+
+November 2, 2014
+2:00pm - 2:30pm
+Attendees: Fauzan, Amir, Wei-Cong, Jacky
+Current State of Project:
+	- Done: Flight Class, BillingInfo Class, User Class
+	- Almost done: System, Client, Driver
+	- Need to start on Itinerary, OneWayTrip Class
+Task till next meeting:
+	- finish makeAllItineraries (Fauzan)
+	- Start on Itinerary Class (Amir)
+	- Start on OneWayTrip Class (Amir)
+	- Finish searchItinerary in Client Class (Wei-Cong)
+	- Comment on codes (All)
+	- Come up with idea how to store information (Fauzan or all)
+Fauzan:
+	- Finished helper method for makeAllItineraries
+	- Briefly tested makeAllItineraries and only works for origin to destination, does not check time
+	- Will make helper method for makeAllItineraries for checking valid times
+	- Will document System Class
+	- Changed cost type from float to double in Flight Class
+Amir:
+	- Make Itinerary Class to store all flights
+	- Document Flight Class
+	- Wait till System is done implementing createItinerary method to test
+Wei-Cong:
+	- Wait for Itinerary Class to start displayByCost, displayByTime methods
+	- Document BillingInfo, Client Class
+Jacky:
+	- Wait till individuals are done with their classes to start implementing methods and testing them
+	- Briefly test finished methods
+
+November 4, 2014
+3:00pm - 4:00pm
+Atendees: Fauzan, Jackie, Amir, Wei-Cong
+Current state of the project:
+	- Done: Itinerary, OneWayTrip class
+	- Almost Done: System class, Driver class
+Task till next meeting:
+	- Work with makeAllItinerary with date as String (Fauzan)
+	- Start on implementing file reader method (Jacky)
+	- Add toString method to all classes (Wei-Cong, Amir)
+	- Start sortByTime, sortByCost method (Wei-Cong)
+Fauzan:
+	- Finish up makeAllItineraries method to work with String date
+	- document all methods
+	- Make object of each itinerary
+Wei-Cong:
+	- implement sortByTime, sortByCost method in Client class
+	- add toString method to Client, BillingInfo class
+Amir:
+	- Change departureDateTime to String
+	- add toString method for Flight, Itinerary Class
+Jacky:
+	- implement uploadFlightInfo
+	- implement uploadClientInfo
+
+November 6, 2014
+3:30pm-9:40pm
+Atendees: Fauzan, Wei-Cong, Jacky, Amir
+Current state of the project:
+	- Done: all classes, documents, bugs, commenting, testing
+	- all agree to leave it as final version for PII

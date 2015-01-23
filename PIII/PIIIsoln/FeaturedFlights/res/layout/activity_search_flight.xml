@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <Button
+        android:id="@+id/selectDateTimeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@color/DeepBlue"
+        android:onClick="selectDateTime"
+        android:text="@string/select_departure_date"
+        android:textColor="@color/White" />
+
+    <Button
+        android:id="@+id/viewFlightBbtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/selectDateTimeBtn"
+        android:layout_alignLeft="@+id/viewSingleFlight"
+        android:layout_below="@+id/viewSingleFlight"
+        android:layout_marginTop="25dp"
+        android:background="@color/DeepBlue"
+        android:onClick="ViewFlight"
+        android:text="@string/view_itinerary"
+        android:textColor="@color/White" />
+
+    <Button
+        android:id="@+id/viewSingleFlight"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/selectDateTimeBtn"
+        android:layout_alignLeft="@+id/chooseDesinationBtn"
+        android:layout_below="@+id/chooseDesinationBtn"
+        android:layout_marginTop="25dp"
+        android:background="@color/DeepBlue"
+        android:text="@string/view_single_flignt"
+        android:textColor="@color/White" />
+
+    <Button
+        android:id="@+id/chooseDesinationBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/selectDateTimeBtn"
+        android:layout_alignLeft="@+id/selectDateTimeBtn"
+        android:layout_below="@+id/chooseDepartureLocationBtn"
+        android:layout_marginTop="25dp"
+        android:background="@color/DeepBlue"
+        android:onClick="chooseDestination"
+        android:text="@string/choose_destination_location"
+        android:textColor="@color/White" />
+
+    <Button
+        android:id="@+id/chooseDepartureLocationBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/selectDateTimeBtn"
+        android:layout_alignLeft="@+id/chooseDesinationBtn"
+        android:layout_below="@+id/selectDateTimeBtn"
+        android:layout_marginTop="25dp"
+        android:background="@color/DeepBlue"
+        android:onClick="chooseDepartureLocation"
+        android:text="@string/choose_departure_location"
+        android:textColor="@color/White" />
+
+</RelativeLayout>

@@ -1,0 +1,110 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:136), pid=5732, tid=5056
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version:  (7.0_67-b01) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (24.65-b04 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000000000216d800):  JavaThread "Unknown thread" [_thread_in_vm, id=5056, stack(0x0000000002460000,0x0000000002560000)]
+
+Stack: [0x0000000002460000,0x0000000002560000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x000000000216d800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=5056, stack(0x0000000002460000,0x0000000002560000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.009 loading class 0x00000000021ecb60 done
+Event: 0.009 loading class 0x00000000021ec580 done
+Event: 0.009 loading class 0x00000000021ec560
+Event: 0.009 loading class 0x00000000021f46c0
+Event: 0.009 loading class 0x00000000021f46c0 done
+Event: 0.009 loading class 0x00000000021f46f0
+Event: 0.009 loading class 0x00000000021f46f0 done
+Event: 0.009 loading class 0x00000000021f4720
+Event: 0.009 loading class 0x00000000021f4720 done
+Event: 0.009 loading class 0x00000000021ec560 done
+
+
+Dynamic libraries:
+0x000000013fd00000 - 0x000000013fd33000 	C:\Program Files\Java\jre7\bin\javaw.exe
+0x0000000076f90000 - 0x0000000077139000 	C:\Windows\SYSTEM32\ntdll.dll
+0x0000000076e70000 - 0x0000000076f8f000 	C:\Windows\system32\kernel32.dll
+0x000007fefd0a0000 - 0x000007fefd10c000 	C:\Windows\system32\KERNELBASE.dll
+0x000007fefe600000 - 0x000007fefe6db000 	C:\Windows\system32\ADVAPI32.dll
+0x000007fefe740000 - 0x000007fefe7df000 	C:\Windows\system32\msvcrt.dll
+0x000007feff110000 - 0x000007feff12f000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007feff140000 - 0x000007feff26d000 	C:\Windows\system32\RPCRT4.dll
+0x0000000076d70000 - 0x0000000076e6a000 	C:\Windows\system32\USER32.dll
+0x000007fefd280000 - 0x000007fefd2e7000 	C:\Windows\system32\GDI32.dll
+0x000007feff100000 - 0x000007feff10e000 	C:\Windows\system32\LPK.dll
+0x000007fefd1b0000 - 0x000007fefd279000 	C:\Windows\system32\USP10.dll
+0x000007fefb790000 - 0x000007fefb984000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac\COMCTL32.dll
+0x000007fefef70000 - 0x000007fefefe1000 	C:\Windows\system32\SHLWAPI.dll
+0x000007feff270000 - 0x000007feff29e000 	C:\Windows\system32\IMM32.DLL
+0x000007fefeff0000 - 0x000007feff0f9000 	C:\Windows\system32\MSCTF.dll
+0x0000000062df0000 - 0x0000000062ec2000 	C:\Program Files\Java\jre7\bin\msvcr100.dll
+0x000000005a050000 - 0x000000005a822000 	C:\Program Files\Java\jre7\bin\server\jvm.dll
+0x000007feee850000 - 0x000007feee859000 	C:\Windows\system32\WSOCK32.dll
+0x000007fefef20000 - 0x000007fefef6d000 	C:\Windows\system32\WS2_32.dll
+0x000007feff130000 - 0x000007feff138000 	C:\Windows\system32\NSI.dll
+0x000007fefa1c0000 - 0x000007fefa1fb000 	C:\Windows\system32\WINMM.dll
+0x0000000077150000 - 0x0000000077157000 	C:\Windows\system32\PSAPI.DLL
+0x0000000072780000 - 0x000000007278f000 	C:\Program Files\Java\jre7\bin\verify.dll
+0x000000006f610000 - 0x000000006f638000 	C:\Program Files\Java\jre7\bin\java.dll
+0x000000006f680000 - 0x000000006f695000 	C:\Program Files\Java\jre7\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=Cp1252 -Xbootclasspath:C:\Users\Fauzan\Desktop\adt-bundle-windows-x86_64-20140702\adt-bundle-windows-x86_64-20140702\sdk\platforms\android-20\android.jar 
+java_command: pIIIsoln.Driver
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\SlikSvn\bin
+USERNAME=Fauzan
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7601 Service Pack 1
+
+CPU:total 4 (4 cores per cpu, 1 threads per core) family 6 model 60 stepping 3, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, erms, tsc, tscinvbit
+
+Memory: 4k page, physical 4131504k(1644040k free), swap 8261144k(4378672k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (24.65-b04) for windows-amd64 JRE (1.7.0_67-b01), built on Jul 25 2014 08:55:00 by "java_re" with unknown MS VC++:1600
+
+time: Thu Nov 27 18:25:10 2014
+elapsed time: 0 seconds
+
